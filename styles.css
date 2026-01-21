@@ -4,9 +4,6 @@ body {
     background: url('AgentVerse_Dark.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
 
@@ -19,15 +16,18 @@ body {
     border-radius: 5px;
 }
 
+/* 🔥 TOP-CENTER TIMER CONTAINER */
 #fullscreen-container {
     position: absolute;
-    top: 50% auto;
-    left: 70%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 360px;
-    height: 400px;
+    height: 180px;
     border-radius: 10px;
     background: rgba(95, 36, 159, 1);
     color: white;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,27 +40,25 @@ body {
 
 #timer {
     font-size: 5em;
+    text-align: center;
 }
 
 #display-message {
     font-size: 1.5em;
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.numberInput{
+.numberInput {
     width: 50px;
 }
 
-#display-small{
+#display-small {
     visibility: hidden;
 }
 
 #music {
+    position: absolute;
     bottom: 0;
     margin: 10px;
-    position: absolute;
-
 }
-
