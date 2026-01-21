@@ -25,7 +25,7 @@ body {
     width: 360px;
     height: 180px;
     border-radius: 10px;
-    background: rgba(95, 36, 159, 1);
+    background: rgba(14,16,32,0);
     color: white;
 
     display: flex;
@@ -61,5 +61,7 @@ body {
     position: absolute;
     bottom: 0;
     margin: 10px;
+    left: 50%;
 }
+
 
