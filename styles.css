@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('DXC_AWS_Fest.png') no-repeat center center fixed;
+    background: url('TAM.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
     height: 100vh;
@@ -64,6 +64,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 
 
